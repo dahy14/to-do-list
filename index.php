@@ -9,17 +9,18 @@ require 'db_conn.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List Peko</title>
+    <title>Todo List WAH</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa&family=Dancing+Script&family=Poiret+One&family=Quicksand:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <div id="root">
-
-        <h1 class="ttt"> <i> Good Morning. Afternoon. Evening.<br>Here are your Todos.</i> </h1>
+        <br><br><br><br>
+        <div class="ttt"> <i> Good Morning. Afternoon. Evening.<br>Here are your Todos.</i> </div>
         <div class="main-section">
             <div class="add-section">
                 <form action="app/add.php" method="POST" autocomplete="off">
@@ -39,7 +40,9 @@ require 'db_conn.php';
             <div class="show-todo-section">
                 <?php if ($todos->rowCount() <= 0) { ?>
                     <div class="todo-item all-done">
-
+                        <img src="img/ina.gif" alt="">
+                        <hr class="hr1" />
+                        <hr class="hr2" />
                         <h2 class="wah">The Priestess is bored.<br>Do somethink.</h2>
 
                     </div>
