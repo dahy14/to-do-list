@@ -239,8 +239,17 @@ body {
   justify-content: center;
 }
 
-.todo-items.all-done img {
+.ina img {
   max-width: 456px;
+  text-align: center;
+}
+
+.dia {
+  width: 200px;
+  margin: 0 auto -50px auto;
+}
+
+.dia img {
   text-align: center;
 }
 

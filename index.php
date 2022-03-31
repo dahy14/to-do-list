@@ -40,7 +40,8 @@ require 'db_conn.php';
             <div class="show-todo-section">
                 <?php if ($todos->rowCount() <= 0) { ?>
                     <div class="todo-item all-done">
-                        <img src="img/ina.gif" alt="">
+                        <img src="img/dualogue box.gif" alt="" class="dia" />
+                        <img src="img/ina.gif" alt="" class="ina" />
                         <hr class="hr1" />
                         <hr class="hr2" />
                         <h2 class="wah">The Priestess is bored.<br>Do somethink.</h2>
