@@ -233,7 +233,7 @@ body {
 }
 
 .todo-item.all-done {
-  background-color: #7f6292;
+  background-color: #544d70;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,14 +246,15 @@ body {
 
 .hr1 {
   width: 100%;
-  border: 3px solid #b76ee7;
-  background: #b76ee7;
+  border: 3px solid #64557d;
+  background: #64557d;
   margin: 10px auto;
   border-radius: 3px;
 }
 .hr2 {
   width: 79%;
-  border: 2px solid #b76ee7;
+  border: 2px solid #7a5f8e;
+  background: #7a5f8e;
   border-radius: 2px;
   margin: 0px auto;
 }
@@ -296,14 +297,15 @@ body {
     max-height: 830px;
   }
 
-@media only screen and (min-width: 2890px) {
-  .show-todo-section {
-    max-height: 1225px;
+  @media only screen and (min-width: 2890px) {
+    .show-todo-section {
+      max-height: 1225px;
+    }
   }
-}
 
-@media only screen and (min-width: 3900px) {
-  .show-todo-section {
-    max-height: 2835px;
+  @media only screen and (min-width: 3900px) {
+    .show-todo-section {
+      max-height: 2835px;
+    }
   }
 }
