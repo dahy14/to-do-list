@@ -171,9 +171,11 @@ body {
 
 .todo-item h4 {
   display: inline-block;
-  padding: 5px 0px;
+  margins-top: -5px;
+  padding-bottom: 5px;
   font-size: 20px;
   font-family: "Comfortaa", cursive;
+  width: 85%;
 }
 
 .todo-item small {
@@ -219,6 +221,11 @@ body {
 .checked {
   color: #999 !important;
   text-decoration: line-through;
+}
+
+.check-box {
+  padding-top: 5px;
+  vertical-align: top;
 }
 
 .todo-item input {
